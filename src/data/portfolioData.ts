@@ -1,3 +1,11 @@
+import ChocolateImg from "../assets/CHOCOLATE.png";
+import CIHImg from "../assets/CIH.png";
+import HISImg from "../assets/HIS.png";
+import CRMAIImg from "../assets/CRM AI.png";
+import CreativeImg from "../assets/CREATIVE.png";
+import AIImg from "../assets/AI.png";
+
+
 export interface Project {
   id: number;
   title: string;
@@ -96,33 +104,34 @@ export const skills: Skill[] = [
 
 export const galleryItems = [
   {
-    src: "./src/assets/CHOCOLATE.png",
+    src: ChocolateImg,
     title: "Chocolate Website",
-    desc: "E-commerce UI design"
+    desc: "E-commerce UI design",
   },
   {
-    src: "./src/assets/CIH.png",
+    src: CIHImg,
     title: "CIH Dashboard",
-    desc: "Hospital Management System"
+    desc: "Hospital Management System",
   },
   {
-    src: "./src/assets/HIS.png",
+    src: HISImg,
     title: "HIS Portal",
-    desc: "Health Information System"
+    desc: "Health Information System",
   },
   {
-    src: "./src/assets/CRM AI.png",
+    src: CRMAIImg,
     title: "CRM AI",
-    desc: "AI based Customer Management"
-  },
-   {
-    src: "./src/assets/CREATIVE.png",
-    title: "CREATIVE",
-    desc: "Health Information System"
+    desc: "AI based Customer Management",
   },
   {
-    src: "./src/assets/AI.png",
+    src: CreativeImg,
+    title: "CREATIVE",
+    desc: "Health Information System",
+  },
+  {
+    src: AIImg,
     title: "AI",
-    desc: "AI based Customer Management"
-  }
+    desc: "AI based Customer Management",
+  },
 ];
+
