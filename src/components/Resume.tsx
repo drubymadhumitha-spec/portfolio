@@ -25,10 +25,9 @@ const Resume = () => {
   ];
 
   const certifications = [
-    "Advanced 3D Animation Certification",
-    "Full Stack Development Certification",
-    "Motion Graphics Mastery",
-    "AWS Cloud Practitioner"
+    "Study Section - Python",
+    "Hacker Rank - SQL, Python",
+    "Accenture - Developer Virtual Experience Program",
   ];
 
   return (

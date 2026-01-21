@@ -18,6 +18,7 @@ function App() {
       <Gallery />
       <Resume />
       <Contact />
+      {/* <FeaturedProjects/> */}
       {/* <Footer /> */}
     </div>
   );
