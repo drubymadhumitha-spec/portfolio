@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { motion, useAnimation, useTransform, useSpring, useMotionValue } from 'framer-motion';
 import { FiDownload, FiAward, FiChevronDown, FiStar } from 'react-icons/fi';
-
+import resumepdf from '../assets/resume.pdf'
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isVisible, setIsVisible] = useState(false);
@@ -473,7 +473,7 @@ const Hero = () => {
           >
             {/* Primary button */}
             <motion.a
-              href="./public/resume.pdf"
+              href={resumepdf}
               download
               className="relative px-8 py-4 bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 text-white rounded-full font-semibold text-lg flex items-center gap-3 overflow-hidden group"
               style={{

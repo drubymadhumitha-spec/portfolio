@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiDownload, FiCalendar, FiAward, FiBook } from 'react-icons/fi';
+import resumepdf from '../assets/resume.pdf'
 
 const Resume = () => {
   const education = [
@@ -144,7 +145,7 @@ const Resume = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
-              href="./public/resume.pdf"
+              href={resumepdf}
               download
               className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white rounded-full font-semibold text-lg flex items-center gap-3 mx-auto shadow-lg shadow-purple-200 hover:shadow-xl transition-all duration-300"
             >
